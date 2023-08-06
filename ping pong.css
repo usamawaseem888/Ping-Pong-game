@@ -1,0 +1,48 @@
+#heading{
+    text-align: center;
+    font-size:2ch;
+    font-family:'Courier New', Courier, monospace ;
+
+}
+#container{
+text-align: center;
+
+}
+/* 
+#container{
+    height: 500px;
+    width: 800px;
+    border: 4px solid;
+    margin: auto;
+    background-color: aqua;
+
+} */
+#scoring{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 6ch;
+    font-weight:bolder;
+}
+
+#gameboard{
+    border: 3px solid;
+    background-color: aqua;
+    
+
+}
+#reset{
+    background-color: lightgrey;
+    color: rgb(5, 5, 5);
+    font-size: 1ch;
+    text-align: center;
+    font-weight: bolder;
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 0 10px rgb(58, 53, 53);
+    cursor: pointer;
+}
+
+#reset:active{
+    transform: translateY(5px);
+    box-shadow: 0 5px;
+}
